@@ -71,12 +71,14 @@ const Header = () => {
                                     <Link
                                         key={idx}
                                         href={`/${link.toLowerCase().replace(/ & /g, "-").replace(/\s+/g, "-")}`}
-                                        className="block text-gray-700 hover:text-blue-600 py-1"
+                                        className="block text-gray-700 hover:text-white hover:bg-blue-500 px-3 py-2 rounded-md transition-all duration-300"
                                     >
                                         {link}
                                     </Link>
                                 ))}
                             </div>
+                       
+
                         </li>
                     ))}
                     <li className="relative group">

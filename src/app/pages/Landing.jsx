@@ -2,11 +2,11 @@
 import React from "react";
 import Blogs from "../db";
 import Link from "next/link";
+import NewsletterSection from "../components/Newsletter";
 
 function Landing() {
   return (
     <div className="container px-4 mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-center">Latest Blog Posts</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Blogs.map((blog) => (
           <div key={blog.id} className="border rounded-lg overflow-hidden shadow-lg bg-white">
@@ -29,8 +29,10 @@ function Landing() {
           </div>
         ))}
     </div>
+    <NewsletterSection/>
     </div >
   );
 }
 
 export default Landing;
+

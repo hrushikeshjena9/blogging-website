@@ -51,10 +51,10 @@ const HeroSlider = () => {
 
             {/* Custom Navigation Arrows */}
             <div className="absolute bottom-4 right-4 z-10 flex space-x-3">
-                <div className="swiper-button-prev !static !w-10 !h-10 bg-gray-900/50 text-white rounded-full flex items-center justify-center hover:bg-gray-900/80">
+                <div className=" cursor-pointer !static !w-10 !h-10 bg-gray-100/50 text-black rounded-full flex items-center justify-center hover:bg-gray-200/80">
                     ❮
                 </div>
-                <div className="swiper-button-next !static !w-10 !h-10 bg-gray-900/50 text-white rounded-full flex items-center justify-center hover:bg-gray-900/80">
+                <div className=" cursor-pointer !static !w-10 !h-10 bg-gray-100/50 text-black rounded-full flex items-center justify-center hover:bg-gray-200/80">
                     ❯
                 </div>
             </div>
